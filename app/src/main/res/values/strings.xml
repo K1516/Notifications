@@ -3,14 +3,11 @@
     <string name="hello_world">Hello world!</string>
     <string name="dialog_exit">Are you sure you want to go to next page?</string>
     <string name="dialog_yes">Yes</string>
-    <string name="dialog_continue">Continue</string>
-    <string name="dialog_title">Exit</string>
-    <string name="listdialog_title">Select a message type</string>
-    <string name="dialog_teamname">Team name:</string>
+    <string name="dialog_stop">STOP</string>
+    <string name="dialog_title">Continue</string>
+    <string name="text_txt">You have been Trolled ":D"</string>
+    <string name="public_text">This is a public text.</string>
+    <string name="private_text">This is a private text.</string>
+    <string name="secret_text">This is a secret text.</string>
 
-    <string-array name="messagetypes">
-        <item>Call</item>
-        <item>SMS</item>
-        <item>Email</item>
-    </string-array>
 </resources>

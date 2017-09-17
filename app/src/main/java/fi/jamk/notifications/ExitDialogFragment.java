@@ -4,10 +4,9 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
-import android.view.View;
+
 
 
 /**
@@ -28,15 +27,12 @@ public class ExitDialogFragment extends DialogFragment {
                         Toast.makeText(getActivity(), "Click again", Toast.LENGTH_SHORT).show();
 
 
-
-                        //android.os.Process.killProcess(android.os.Process.myPid());
-                        //System.exit(1);
                     }
                 })
-                .setNegativeButton(R.string.dialog_continue, new DialogInterface.OnClickListener() {
+                .setNegativeButton(R.string.dialog_stop, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         // User cancelled the dialog
-                        Toast.makeText(getActivity(), "Click again", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getActivity(), "Something went wrong,cClick again", Toast.LENGTH_SHORT).show();
 
 
 
